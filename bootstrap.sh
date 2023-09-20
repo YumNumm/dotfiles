@@ -1,10 +1,5 @@
 #! /usr/bin/env sh
 
-if [ "$(uname)" != "Darwin" ] ; then
-	echo "Not macOS!"
-	exit 1
-fi
-
 DIR=$(dirname "$0")
 cd "$DIR"
 
